@@ -1,0 +1,46 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    background: #2197d1;
+    text-align: center;
+}
+h1{
+    margin: 20px 0;
+    font-size: 32px;
+}
+.quadrado{
+    width: 50px;
+    background-color: #1862a2;
+    padding: 40px;
+    font-size: 60px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    color: #1862a2;
+}
+.jogador, .vencedor{
+    font-size: 32px;
+    margin-top: 10px;
+}
+#jogador-selecionado, #vencedor-selecionado{
+    font-size: 30px;
+    font: bold;
+}
+div button{
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 22px;
+    box-shadow: none;
+    border: 1px solid #aa0e25;
+    transition: 0.5s ease-in-out all;
+}
+div button:hover{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
